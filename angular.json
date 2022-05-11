@@ -20,6 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "preserveSymlinks": true,
             "outputPath": "dist/angular-ngrx-example",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -126,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-ngrx-example"
+    }
+  },
+  "defaultProject": "angular-ngrx-example",
+  "cli": {
+    "analytics": "ba0f2375-95b4-4fab-81b3-b2c71aac64e0"
+  }
 }
